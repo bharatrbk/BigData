@@ -1,0 +1,19 @@
+{
+  "errorInstanceId": "test1103a",
+  "errorCode": "400",
+  "timestamp": "2022-11-03T13:58:40.052Z",
+  "falloutType": "DATA_INSUFFICIENT",
+  "falloutCategory": "PERMANENT",
+  "source": "Prism",
+  "cause": "Missing required information",
+  "reason": "Location does not appear on job",
+  "state": "OPEN",
+  "priority": "NORMAL",
+  "suggestedAction": "",
+  "falloutEventSource": {
+    "systemName": "Construction Location Translator",
+    "serviceName": "Location Transformation Service",
+    "componentName": null
+  },
+  "payload": "{\"header\":{\"transactionId\":\"cbb75f84-bca5-4149-9927-fe9670e625cb\",\"sessionId\":null,\"type\":null,\"name\":null,\"process\":null,\"requester\":null,\"client\":\"Prism\",\"timestamp\":null},\"body\":{\"currentState\":{\"location\":{\"lifeCycleState\":\"Location Update Requested\",\"serviceLocationId\":null,\"billerLocationId\":null,\"dwellingType\":null,\"installationType\":null,\"serviceLocationComment\":null,\"locationType\":null,\"nys\":null,\"rdofIndicator\":null,\"taxGeocode\":null,\"address\":null,\"quality\":null,\"geo\":null,\"building\":null,\"networkPlant\":null,\"rateCenter\":null,\"serviceability\":null,\"construction\":{\"physicalLocationId\":8890277,\"serviceLocationStatus\":null,\"job\":{\"prismId\":3892266,\"name\":null,\"type\":null,\"constructionType\":null,\"constructionCoordinator\":null,\"constructionCoordinatorId\":null,\"milestone\":\"Addresses Change Before Activated\",\"constructionStartDate\":null,\"plantType\":null,\"tentativeServiceDate\":null,\"cancelledReason\":null,\"projectStatus\":null,\"specialPrograms\":null,\"surveys\":null,\"phases\":null}},\"billingOrg\":null}}}}"
+}
